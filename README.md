@@ -56,10 +56,6 @@ From the menu, choose between:
 - **Static maze visualization** – demonstrates classical search behavior and static Q-learning on a fixed maze
 - **Dynamic maze visualization** – demonstrates dynamic obstacle motion, replanning, and a learned policy in a changing environment
 
-## Running experiments
-
-Experiment scripts are located in `src/experiments/` and can be executed individually to regenerate CSV results and plots. Use the script names to run the scenario you want without modifying the code structure.
-
 ## Example output
 
 Static menu:
@@ -77,15 +73,3 @@ Dynamic menu:
 Dynamic animation:
 
 ![Dynamic animation](img/dynamic_animation.gif)
-
-## Report
-
-Full methodology, implementation details, experiment setup, and discussion are available in:
-
-```text
-report.pdf
-```
-
-## License
-
-This project was developed for educational purposes as part of a university project.
